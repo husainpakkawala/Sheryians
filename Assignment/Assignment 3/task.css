@@ -19,7 +19,7 @@ html,body{
 
 /* header */
 #header{
-    background: linear-gradient(135deg, #06b273, #02895d) ;
+    background: #0A425F ;
     color: #fff;
     text-align: center;
     padding: 70px 20px;
@@ -44,18 +44,21 @@ html,body{
 }
 
 /* individual colors */
-#about { background-color: #5ecdf1; }       
-#education { background-color: #f15e5e; }  
-#skills { background-color: #f1c45e; }      
-#projects { background-color: #a45ef1; }    
-#contact { background-color: #f15e9e; } 
+#about { background-color: #cadad7; }       
+#education { background-color: #e8dbc5; }  
+#skills { background-color: #d4c6da; }      
+#projects { background-color:#b9c1c6; }    
+#contact { background-color: #c7e9f4; } 
 
 #about h2, #education h2, #skills h2, #projects h2, #contact h2{
     margin-bottom: 20px;
     font-size: 1.8rem;
-    color: #fff;
+    color: #333333;
 
 }
+
+
+
 
 h3{
     background-color: #ffffffd9;
@@ -67,15 +70,15 @@ h3{
 }
 
 p{
-    color: antiquewhite;
+    color: #333333;
     line-height: 1.6;
     font-size: 1.1rem;
 }
 
 /* footer */
 footer{
-    background: linear-gradient(135deg, #06b273, #02895d) ;
-    color: #fff;
+    background: #0A425F;
+    color: black;
     text-align: center;
     padding: 15px;
     font-size: 0.9rem;
