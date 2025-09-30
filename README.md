@@ -17,6 +17,5 @@ This section contains the output of **Assignment 2**, which is the **Student Reg
 ## 📸 Screenshots
 Here are screenshots of the form output:
 
-<img width="1919" height="917" alt="image1 form" src="https://github.com/user-attachments/assets/0cf09c35-d257-47e8-af04-47ec5aaa8758" /> <br>
-
-<img width="1919" height="914" alt="image2 form" src="https://github.com/user-attachments/assets/61bd325f-4298-4fac-b270-f2555b02638a" />
+![Student Form Screenshot 1](<img width="1919" height="917" alt="image1 form" src="https://github.com/user-attachments/assets/0cf09c35-d257-47e8-af04-47ec5aaa8758" />) <br>  
+![Student Form Screenshot 2](<img width="1919" height="914" alt="image2 form" src="https://github.com/user-attachments/assets/61bd325f-4298-4fac-b270-f2555b02638a" />)
