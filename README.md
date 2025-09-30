@@ -12,3 +12,14 @@ Check out the live version of Assignment 1 here:
 
 ---
 
+# Assignment 2 Output 📝
+
+This section contains the output of **Assignment 2**, which is the **Student Registration Form**.
+
+---
+
+## 📸 Screenshots
+Here are screenshots of the form output:
+
+
+
