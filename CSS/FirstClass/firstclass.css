@@ -9,9 +9,16 @@ html,body{
     width: 100%;
 }
 
+/* how to use front from internet concept */
+
 @font-face {
     font-family: horror;
     src: url(./Another\ Danger\ -\ Demo.otf);
+}
+
+@font-face {
+    font-family: nothing;
+    src: url(./Ndot-55.otf);
 }
 
 
@@ -26,7 +33,9 @@ html,body{
     text-transform: capitalize;
 } */
 
-#city{
+    /* id and class concept */
+
+/* #city{
     color: bisque;
     font-size: 80px;
     font-style: italic;
@@ -35,11 +44,29 @@ html,body{
 
 .husain{
     color: royalblue;
-}
+} */
 
-h2{
+
+    /* font concept */
+
+/* h2{
     color: red;
     background-color: black;
     font-family: horror;
     
+}
+
+h1{
+    color: red;
+    background-color: black;
+    font-size: 100px;
+    font-family: nothing;
+} */
+
+div{
+    
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+
 }
