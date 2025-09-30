@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Registration Form</title>
+</head>
+<body>
+
+    <h2>Student Registration Form</h2>
+
+    <form onsubmit="alert('Form submitted successfully!'); return false;">
+
+
+        <!-- Personal Information -->
+
+        <fieldset>
+            <legend><h3>Personal Information</h3></legend>
+
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Enter your name"required><br><br>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required ><br><br>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" minilength="6" required><br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob"><br><br>
+
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age" min="1" max="100" ><br><br>
+
+            Gender:
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="female">female</label>
+            <input type="radio" name="gender" id="female" value="female"><br><br>
+
+            <label for="address">Address:</label><br>
+            <textarea name="address" id="address" rows="4" cols="40" ></textarea>
+        
+        </fieldset>
+
+        <br>
+
+        <!-- Academic Infromation -->
+
+        <fieldset>
+
+            <legend><h3>Academic Infromation</h3></legend>
+
+            <label for="course">Select Course:</label>
+            <select name="course" id="course">
+                <option value="bsc">B-tech</option>
+                <option value="bca">BCA</option>
+                <option value="btech">B-Sc</option>
+                <option value="ba">BA</option>
+            </select><br><br>
+
+            <label for="subject">Select Subjects:         </label>
+            <select name="subjects" id="subjects">
+                <option value="math">Maths</option>
+                <option value="cs">Computer science</option>
+                <option value="eco">Economics</option>
+                <option value="Phy">Physics</option>
+            </select><br><br>
+
+            Hobbies:
+            <label for="reading">Reading</label>
+            <input type="checkbox" name="hobby" id="reading" value="reading">
+
+            <label for="sports">Sports</label>
+            <input type="checkbox" name="hobby" id="sports" value="sports">
+
+            <label for="music">Music</label>
+            <input type="checkbox" name="hobby" id="music" value="music"><br><br>
+
+        </fieldset>
+
+        <br>
+
+        <!-- other info -->
+
+        <fieldset>
+
+            <legend>Other Details</legend>
+
+            <label for="portfolio">Portfolio Website Link:</label>
+            <input type="url" name="portfolio" id="portfolio"><br><br>
+
+            <label for="photo">Upload Photo:</label>
+            <input type="file" name="photo" id="photo"><br><br>
+
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+    
+</body>
+</html>
