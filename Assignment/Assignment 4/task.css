@@ -1,0 +1,48 @@
+@font-face {
+    font-family: orbit;
+    src: url(./Orbitron-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1657533987073-764666d9b47d?q=80&w=1227&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 40px;
+}
+h1{
+    font-size:100px ;
+    color: #83937B;
+    font-family: orbit;
+    font-weight: 100;
+    text-shadow: 2px 2px 5px #000000; /* horizontal, vertical, blur, color */
+
+
+}
+button{
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+    font-family: orbit;
+    background-color:#39FF14 ;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #39ff14;
+}
+button:hover{
+    background-color: #000000;  /* Black */
+    color: beige;
+}
+       
