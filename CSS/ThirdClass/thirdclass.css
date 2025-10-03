@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width:100%;
+}
+
+div{
+    border: 1px solid black;
+}
+
+img{
+    margin: 10px;
+}
+
+/* Relative position concept */
+
+.image2{
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+
+/* Absolute position concept */
+
+.container{
+    position: relative;
+    height: 2000px;
+}
+.image2{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+/* Fixed position concept */
+.image4{
+    position:fixed;
+}
+
+/* sticky image concept */
+.image3{
+    position:sticky;
+    top: 100px;
+}
+.box{
+    background-color: bisque;
+    height: 2000px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
