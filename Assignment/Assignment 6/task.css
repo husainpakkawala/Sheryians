@@ -1,0 +1,33 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,
+body {
+height: 100%;
+width: 100%,
+}
+
+#navbar{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+   padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;    
+}
+#navbar a{
+    text-decoration: none;
+    color: black ;
+    font-size: 15px;
+    font-weight: 400;
+}
+#firstimg{
+    height: 640px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./new\ bg.jpg);
+}
