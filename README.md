@@ -2,7 +2,7 @@
 
 # <h3>Assignment 1 Output📝<h3>
 
-This section contains the output of **Assignment 1**.
+This section contains the output of **Assignment 1**,which is **Virat Kholi Webpage Pure HTML**
 
 ## <h4>🚀Live Demo<h4>
 
@@ -39,10 +39,38 @@ This section contains the output of **Assignment 4**.
 
  https://github.com/user-attachments/assets/cb62c831-4511-4b69-9f5b-08c348c109be
 
+ ---
 
+ # <h3>Assignment 5 Output📝<h3>
 
+This section contains the output of **Assignment 5**,which is **Snitch Landing Page**.
 
+## <h4>📸Photo of Implementation.<h4>
 
+<img width="1919" height="917" alt="Snitch Landing Page" src="https://github.com/user-attachments/assets/44d1c2b9-16a5-4439-a32a-ebc8a3fdb5de" />
 
+---
+
+ # <h3>Assignment 6 Output📝<h3>
+
+This section contains the output of **Assignment 5**,which is **Apple Website**.
+
+## <h4>
+
+📸Short Video of Implementation.<h4>
+
+https://github.com/user-attachments/assets/d3a8697c-f687-4ee6-b46a-d23d812b5b95
+
+---
+
+ # <h3>Assignment 7 Output📝<h3>
+
+This section contains the output of **Assignment 7**,which is **Freakish Mind UI Design**.
+
+## <h4>
+
+📸Short Video of Implementation.<h4>
+
+https://github.com/user-attachments/assets/5b588b74-ac16-4fc2-bdd6-e0103978e469
 
 
