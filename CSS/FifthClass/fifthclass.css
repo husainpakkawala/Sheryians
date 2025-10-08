@@ -1,0 +1,191 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,
+body {
+height: 100%;
+width: 100%,
+}
+
+#box1{
+    height: 200px;
+    width: 200px;
+    background-color:crimson ;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    /* z-index concept */
+    z-index: 5; }
+
+#box2{
+    height: 200px;
+    width: 200px;
+    background-color:lightseagreen ;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    z-index: 7;
+}
+
+/* transform translate concept */
+#box1{
+    height: 200px;
+    width: 200px;
+    background-color:crimson ;
+    /* transform: translateX(50%);
+    transform: translateY(30%);
+    transform: translateX(-30%); */
+    /* to center any element in center of screen */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+
+    /* clippath concept */
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    
+}
+#box2{
+    height: 200px;
+    width: 200px;
+    background-color:lightseagreen ;
+    
+}
+
+ #parent{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    /* flex direction concept */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+} 
+#child1{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    border: 3px solid white;
+}
+#child2{
+    height: 200px;
+    width: 200px;
+    background-color: lightsalmon;
+    border: 3px solid white;
+}
+#child3{
+    height: 200px;
+    width: 200px;
+    background-color: khaki;
+    border: 3px solid white;
+}
+
+
+#parent{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    border: 3px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+    flex-wrap: nowrap;
+
+    overflow: auto;
+
+} 
+ #child1{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    border: 3px solid white;
+    flex-shrink: 0;
+}
+#child2{
+    height: 200px;
+    width: 200px;
+    background-color: lightsalmon;
+    border: 3px solid white;
+}
+#child3{
+    height: 200px;
+    width: 200px;
+    background-color: khaki;
+    border: 3px solid white;
+} 
+
+
+/* card making */
+
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f5f5;
+}
+
+.card {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-50px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+  height: 50%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-content {
+  height: 50%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.card-content h2 {
+  font-size: 1.5rem;
+  color: #000;
+}
+
+.card-content p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 8px;
+  background: black;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #555;
+}
+
+
+
+
+
