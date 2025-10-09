@@ -1,0 +1,487 @@
+@font-face {
+    font-family:cin ;
+    src: url(CinzelDecorative-Regular.ttf);
+}
+@font-face {
+    font-family: pop;
+    src: url(./Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: robo;
+    src: url(./Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,body {
+height: 100%;
+width: 100%,
+}
+
+#main{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0D0D0D, #1A1A1A);
+}
+.heading{
+    width: 100%;
+    height: 90px;
+    margin: 0 auto;
+}
+.heading h1{
+    color:#FFD700 ;
+    font-size: 50px;
+    font-family: cin;
+    text-align: center;
+    padding-top: 20px;
+    text-shadow: 0 0 20px rgba(255, 215, 0, 0.8);
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 0;   
+}
+.card1{
+    height: 350px;
+    width: 400px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.7);
+    margin: 20px;
+    overflow: hidden;
+    position: relative;  
+    transition: all ease 0.3s; 
+}
+.card1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.div1{
+    height: 50%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: inset 0 0 30px rgba(255, 215, 0, 0.3);
+    position: absolute;
+    bottom:-50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all ease 0.6s;
+}
+.div1 h1{
+    font-size: 30px;
+    font-family: pop;
+    color: #FFD700;
+    text-shadow: 0 0 8px rgba(255, 215, 0, 0.6);
+    text-align: center;
+}
+.div1 p{
+    font-size: 20px;
+    font-family: robo;
+    font-weight: 400;
+    color:#E6C994;
+    text-align: center;
+    margin-top: 5px;
+}
+.div1 button{
+    border-radius: 20px;
+    margin-top: 15px;
+    padding: 10px 10px;
+    border: none;
+    background-color: #000000;
+    color: #FFD700;
+    border: 1.5px solid #FFD700;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
+}
+.card1:hover .div1{
+   bottom: 0;
+   box-shadow: 0 0 20px rgba(255, 215, 0, 0.9);
+} 
+.card2{
+    height: 350px;
+    width: 400px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.7);
+    margin: 20px;
+    overflow: hidden;
+    position: relative;  
+    transition: all ease 0.3s; 
+}
+.card2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.div2{
+    height: 50%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: inset 0 0 30px rgba(255, 215, 0, 0.3);
+    position: absolute;
+    bottom:-50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all ease 0.6s;
+}
+.div2 h1{
+    font-size: 30px;
+    font-family: pop;
+    color: #FFD700;
+    text-shadow: 0 0 8px rgba(255, 215, 0, 0.6);
+    text-align: center;
+}
+.div2 p{
+    font-size: 20px;
+    font-family: robo;
+    font-weight: 400;
+    color:#E6C994;
+    text-align: center;
+    margin-top: 5px;
+}
+.div2 button{
+    border-radius: 20px;
+    margin-top: 15px;
+    padding: 10px 10px;
+    border: none;
+    background-color: #000000;
+    color: #FFD700;
+    border: 1.5px solid #FFD700;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
+}
+.card2:hover .div2{
+   bottom: 0;
+   box-shadow: 0 0 20px rgba(255, 215, 0, 0.9);
+} 
+.card3{
+    height: 350px;
+    width: 400px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.7);
+    margin: 20px;
+    overflow: hidden;
+    position: relative;  
+    transition: all ease 0.3s; 
+}
+.card3 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.div3{
+    height: 50%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: inset 0 0 30px rgba(255, 215, 0, 0.3);
+    position: absolute;
+    bottom:-50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all ease 0.6s;
+}
+.div3 h1{
+    font-size: 30px;
+    font-family: pop;
+    color: #FFD700;
+    text-shadow: 0 0 8px rgba(255, 215, 0, 0.6);
+    text-align: center;
+}
+.div3 p{
+    font-size: 20px;
+    font-family: robo;
+    font-weight: 400;
+    color:#E6C994;
+    text-align: center;
+    margin-top: 5px;
+}
+.div3 button{
+    border-radius: 20px;
+    margin-top: 15px;
+    padding: 10px 10px;
+    border: none;
+    background-color: #000000;
+    color: #FFD700;
+    border: 1.5px solid #FFD700;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
+}
+.card3:hover .div3{
+   bottom: 0;
+   box-shadow: 0 0 20px rgba(255, 215, 0, 0.9);
+} 
+.card4{
+    height: 350px;
+    width: 400px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.7);
+    margin: 20px;
+    overflow: hidden;
+    position: relative;  
+    transition: all ease 0.3s; 
+}
+.card4 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.div4{
+    height: 50%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: inset 0 0 30px rgba(255, 215, 0, 0.3);
+    position: absolute;
+    bottom:-50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all ease 0.6s;
+}
+.div4 h1{
+    font-size: 30px;
+    font-family: pop;
+    color: #FFD700;
+    text-shadow: 0 0 8px rgba(255, 215, 0, 0.6);
+    text-align: center;
+}
+.div4 p{
+    font-size: 20px;
+    font-family: robo;
+    font-weight: 400;
+    color:#E6C994;
+    text-align: center;
+    margin-top: 5px;
+}
+.div4 button{
+    border-radius: 20px;
+    margin-top: 15px;
+    padding: 10px 10px;
+    border: none;
+    background-color: #000000;
+    color: #FFD700;
+    border: 1.5px solid #FFD700;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
+}
+.card4:hover .div4{
+   bottom: 0;
+   box-shadow: 0 0 20px rgba(255, 215, 0, 0.9);
+} 
+.card5{
+    height: 350px;
+    width: 400px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.7);
+    margin: 20px;
+    overflow: hidden;
+    position: relative;  
+    transition: all ease 0.3s; 
+}
+.card5 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.div5{
+    height: 50%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: inset 0 0 30px rgba(255, 215, 0, 0.3);
+    position: absolute;
+    bottom:-50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all ease 0.6s;
+}
+.div5 h1{
+    font-size: 30px;
+    font-family: pop;
+    color: #FFD700;
+    text-shadow: 0 0 8px rgba(255, 215, 0, 0.6);
+    text-align: center;
+}
+.div5 p{
+    font-size: 20px;
+    font-family: robo;
+    font-weight: 400;
+    color:#E6C994;
+    text-align: center;
+    margin-top: 5px;
+}
+.div5 button{
+    border-radius: 20px;
+    margin-top: 15px;
+    padding: 10px 10px;
+    border: none;
+    background-color: #000000;
+    color: #FFD700;
+    border: 1.5px solid #FFD700;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
+}
+.card5:hover .div5{
+   bottom: 0;
+   box-shadow: 0 0 20px rgba(255, 215, 0, 0.9);
+} 
+.card6{
+    height: 350px;
+    width: 400px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.7);
+    margin: 20px;
+    overflow: hidden;
+    position: relative;  
+    transition: all ease 0.3s; 
+}
+.card6 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.div6{
+    height: 50%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: inset 0 0 30px rgba(255, 215, 0, 0.3);
+    position: absolute;
+    bottom:-50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all ease 0.6s;
+}
+.div6 h1{
+    font-size: 30px;
+    font-family: pop;
+    color: #FFD700;
+    text-shadow: 0 0 8px rgba(255, 215, 0, 0.6);
+    text-align: center;
+}
+.div6 p{
+    font-size: 20px;
+    font-family: robo;
+    font-weight: 400;
+    color:#E6C994;
+    text-align: center;
+    margin-top: 5px;
+}
+.div6 button{
+    border-radius: 20px;
+    margin-top: 15px;
+    padding: 10px 10px;
+    border: none;
+    background-color: #000000;
+    color: #FFD700;
+    border: 1.5px solid #FFD700;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
+}
+.card6:hover .div6{
+   bottom: 0;
+   box-shadow: 0 0 20px rgba(255, 215, 0, 0.9);
+} 
+.card7{
+    height: 350px;
+    width: 400px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.7);
+    margin: 20px;
+    overflow: hidden;
+    position: relative;  
+    transition: all ease 0.3s; 
+}
+.card7 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.div7{
+    height: 50%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: inset 0 0 30px rgba(255, 215, 0, 0.3);
+    position: absolute;
+    bottom:-50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all ease 0.6s;
+}
+.div7 h1{
+    font-size: 30px;
+    font-family: pop;
+    color: #FFD700;
+    text-shadow: 0 0 8px rgba(255, 215, 0, 0.6);
+    text-align: center;
+}
+.div7 p{
+    font-size: 20px;
+    font-family: robo;
+    font-weight: 400;
+    color:#E6C994;
+    text-align: center;
+    margin-top: 5px;
+}
+.div7 button{
+    border-radius: 20px;
+    margin-top: 15px;
+    padding: 10px 10px;
+    border: none;
+    background-color: #000000;
+    color: #FFD700;
+    border: 1.5px solid #FFD700;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
+}
+.card7:hover .div7{
+   bottom: 0;
+   box-shadow: 0 0 20px rgba(255, 215, 0, 0.9);
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
