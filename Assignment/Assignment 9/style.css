@@ -1,0 +1,134 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,body {
+height: 100%;
+width: 100%,
+}
+
+
+@font-face {
+    font-family: cin ;
+    src: url(./CinzelDecorative-Regular.ttf);
+}
+
+main{
+    min-height:250%;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 270px repeat(8,1fr) ;
+    grid-template-areas:  "header header header"
+                          "box1 box2 box3" 
+                          "box1 box5 box3" 
+                          "box4 box5 box6" 
+                          "box4 box8 box6" 
+                          "box7 box8 box9"
+                          "box7 box11 box9"
+                          "box10 box11 box12"
+                          "box10 0 box12";
+    padding: 20px;
+    grid-gap:30px;
+}
+header{
+    background-color: black;
+    color: gold;
+    grid-area: header;
+    font-size: 150px;
+    text-align: center;
+    padding-top: 50px;
+    font-family: cin;
+    font-weight: 700;
+}
+
+.box1{
+    grid-area: box1;
+    background-image: url(./Gemini_Generated_Image_h7b4jdh7b4jdh7b4.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 100px;
+  
+
+}
+.box2{
+    grid-area: box2;
+    background-image: url(./Gemini_Generated_Image_h7b4jdh7b4jdh7b4\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 100px;
+}
+.box3{
+    grid-area: box3;
+    background-image: url(./Gemini_Generated_Image_h7b4jdh7b4jdh7b4\ \(2\).png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 100px;
+}
+.box4{
+    grid-area: box4;
+    background-image: url(./Gemini_Generated_Image_h7b4jdh7b4jdh7b4\ \(4\).png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 100px;
+}
+.box5{
+    grid-area: box5;
+    background-image: url(./Gemini_Generated_Image_h7b4jdh7b4jdh7b4\ \(5\).png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 100px;
+}
+.box6{
+    grid-area: box6;
+    background-image: url(./Gemini_Generated_Image_h7b4jdh7b4jdh7b4\ \(6\).png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 100px;
+}
+.box7{
+    grid-area: box7;
+    background-image: url(./Gemini_Generated_Image_h7b4jdh7b4jdh7b4\ \(7\).png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 100px;
+}
+.box8{
+    grid-area: box8;
+    background-image: url(./Gemini_Generated_Image_h7b4jdh7b4jdh7b4\ \(8\).png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 100px;
+}
+.box9{
+    grid-area: box9;
+    background-image: url(./Gemini_Generated_Image_h7b4jdh7b4jdh7b4\ \(9\).png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 100px;
+}
+.box10{
+    grid-area: box10;
+    background-image: url(https://plus.unsplash.com/premium_photo-1697730324062-c012bc98eb13?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z29sZGVuJTIwdGVtcGxlJTIwYW1yaXRzYXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600);
+    background-size: cover;
+    background-position: center;
+    border-radius: 100px;
+}
+.box11{
+    grid-area: box11;
+    background-image: url(https://www.stayvista.com/blog/wp-content/uploads/2023/11/nature-photographer-29ezCWtMtnM-unsplash-1-scaled-1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 100px;
+}
+.box12{
+    grid-area: box12;
+    background-image: url(https://images.unsplash.com/photo-1627894485200-b92fb4353967?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2070);
+    background-size: cover;
+    background-position: center;
+    border-radius: 100px;
+}
+
+
