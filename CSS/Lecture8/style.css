@@ -1,0 +1,187 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,
+body {
+height: 100%;
+width: 100%,
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+
+    /* grid-template-columns:1fr minmax(400px,200px) 1fr ; */
+    /* grid-template-columns: repeat(2,100px); */
+
+    grid-template-rows:1fr 1fr 1fr 1fr ;
+    grid-gap: 10px; 
+
+    align-items: start;
+    justify-items: start;
+    align-items: end;
+    justify-items: end;
+    align-items: center;
+    justify-items: center; 
+
+    /* grid-template-columns: 100px 100px 100px;
+    align-content: space-between;
+    justify-content: space-between; }*/
+
+.child{
+    background-color:maroon;
+    border: 3px solid white;
+} 
+#child1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    /* grid-column:1/2; (different way) */
+    grid-row-start: 1;
+    grid-row-end: 3;
+    /* grid-row:1/4(different way) */
+}
+}
+
+
+/* layout example 1 */
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows:70px 1fr 80px ;
+    grid-template-areas: "header header" "aside section" "footer footer";
+    grid-gap: 10px;
+    padding: 10px;
+}
+header{
+    background-color: cadetblue;
+    grid-area: header;
+}
+aside{
+    background-color: chocolate;
+    grid-area: aside;
+}
+section{
+    background-color: crimson;
+    grid-area: section;
+}
+footer{
+    background-color: blueviolet;
+    grid-area: footer;
+} 
+
+
+/* layout example 2 */
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 70px 35% 1fr;
+    grid-template-areas: "header header header" "section section section" "div1 div2 div3";
+    grid-gap: 10px;
+    padding: 10px;
+}
+header{
+    background-color: chocolate;
+    grid-area: header;
+}
+section{
+    background-color: cadetblue;
+    grid-area: section;
+}
+#div1{
+    background-color: blueviolet;
+    grid-area: div1;
+}
+#div2{
+    background-color: brown;
+    grid-area: div2;
+}
+#div3{
+    background-color: crimson;
+    grid-area: div3;
+}
+
+
+/* layout example 3 */
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 60px 150px 1fr;
+    grid-template-areas: "header header" "aside section" "figure figure";
+}
+header{
+    background-color: rgb(215, 129, 23);
+    grid-area: header;
+}
+aside{
+    background-color: brown;
+    grid-area: aside;
+}
+section{
+    background-color: blue;
+    grid-area: section;
+}
+figure{
+    background-color: violet;
+    grid-area: figure;
+}
+
+
+/* layot example 4 */
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 80px 1fr 0.5fr 0.5fr;
+    grid-template-areas: "header header header" "section section section" "div-left bottom-up div-right" "div-left bottom-down div-right";
+    grid-gap: 10px;
+    padding: 10px;
+}
+header{
+    background-color: blueviolet;
+    grid-area: header;
+
+}
+section{
+    background-color: green;
+    grid-area: section;
+}
+#div-left{
+    background-color: brown;
+    grid-area: div-left;
+}
+#div-right{
+    background-color: cadetblue;
+    grid-area: div-right;
+}
+#bottom-up{
+    background-color: chocolate;
+    grid-area: bottom-up;
+}
+#bottom-down{
+    background-color: crimson;
+    grid-area: bottom-down;
+} 
+
+
+
+
