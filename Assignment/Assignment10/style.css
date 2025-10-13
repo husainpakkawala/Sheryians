@@ -220,8 +220,9 @@ aside{
 }
 .leftside p{
    padding-top: 10px;
-   font-size: 20px;
+   font-size: 17px;
    max-width: 800px;
+   font-family: font2;
    letter-spacing: 1px;
 }
 
@@ -422,6 +423,143 @@ figure{
     font-weight: 400;
     color: white;
     font-family: font2;
+}
+
+.section4{
+    background-color: rgb(250, 247, 247);
+    border-radius: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:"aside figure" ;
+}
+aside{
+    grid-area: aside;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+    font-weight: 600;    
+}
+.logo h1{
+    margin-left: 20px;
+    font-size: 30p;
+    font-family: font3;
+}
+.leftside1 > p{
+   padding-top: 100px;
+   font-size: 20px;
+   font-family: font2;
+   max-width: 800px;
+   letter-spacing: 1px;
+
+}
+figure{
+    grid-area: figure;
+}
+.rightside1 img{
+    margin-left:90px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    height: 480px;
+    background-color: #D0D4D5;
+    border-radius: 50px;
+}
+.section5{
+    background-color: rgb(250, 247, 247);
+    border-radius: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:"aside figure" ;
+}
+aside{
+    grid-area: aside;
+}
+.leftside2 button{
+    border-radius: 50px;
+    padding: 10px 20px ;
+    border: 2px solid  #2B6DE8;
+    font-size: 16px;
+    font-family: font2;
+    color: #2B6DE8;
+    transition: all ease 0.3s;
+}
+.leftside2 button:hover{
+    background-color: #2B6DE8;
+    color: white;
+}
+.connect h1{
+    font-size: 40px;
+    margin-top: 10px;
+    font-family: font2;
+}
+.email{
+    margin-top: 80px;
+}
+.email h3{
+    font-size: 20px;
+    font-family: font1;
+    color: rgb(160, 158, 158);
+}
+.email p{
+    margin-top: 7px;
+    font-size: 25px;
+    font-family:font2;
+}
+.phone{
+    margin-top: 15px;
+}
+.phone h3{
+    font-size: 20px;
+    font-family: font1;
+    color: rgb(160, 158, 158);
+}
+.phone p{
+    margin-top: 7px;
+    font-size: 25px;
+    font-family:font2;
+}
+.office{
+    margin-top: 15px;
+}
+.office h3{
+    font-size: 20px;
+    font-family: font1;
+    color: rgb(160, 158, 158);
+}
+.office p{
+    margin-top: 10px;
+    font-size: 25px;
+    font-family:font2;
+}
+.follow{
+    margin-top: 15px;
+}
+.follow h3{
+    font-size: 20px;
+    font-family: font1;
+    color: rgb(160, 158, 158);
+}
+.follow i{
+    font-size: 40px;
+    border-radius: 50px;
+    border: 2px solid lightgrey;
+    
+}
+figure{
+    grid-area: figure;
+}
+.rightside2 img{
+    margin-left: 90px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    height: 550px;
+    background-color: #D0D4D5;
+    border-radius: 30px;
 }
 
 
