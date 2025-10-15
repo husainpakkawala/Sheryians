@@ -11,12 +11,6 @@
     src: url(./CinzelDecorative-Regular.ttf);
 }
 
-
-
-
-
-
-
 * {
 margin: 0;
 padding: 0;
@@ -25,6 +19,9 @@ box-sizing: border-box;
 html,body {
 height: 100%;
 width: 100%,
+}
+body{
+    overflow-x: hidden;
 }
 
 main{
@@ -112,4 +109,207 @@ main{
   background-color: #cfa450;
   color: black;
 }
+.cards{
+    background-color: black;
+    height: 80%;
+    width: 100%;
+}
+.cards h1{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 50px;
+    font-family: font2;
+}
+.imgcard{
+    height: 80%;
+    width: 100%;
+     margin: 50px 0; 
+    display: flex;
+    justify-content:space-evenly;
+}
+.card1{
+    height: 300px;
+    width: 250px;
+    border: 1px solid gold;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.card1 img{
+    object-fit: cover;
+    height: 55%;
+    padding-left: 25px;
+}
+.card1 h3{
+    color: white;
+    font-size: 25px;
+   margin-top: 15px;
+    font-family: font2;
+}
+.card1 span{
+    color:gold;
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: font1;
+}
+.card1 button{
+   margin-top: 5px;
+   padding: 7px;
+   border-radius: 50px;
+   font-family: font2;
+   background-color: black;
+   border-color: gold;
+}
+button h4{
+    color: white;
+    font-family: font1;
+}
+.card2{
+    height: 300px;
+    width: 250px;
+    border: 1px solid gold;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.card2 img{
+    object-fit: cover;
+    height: 55%;
+    margin-top: 5px;
+}
+.card2 h3{
+    color: white;
+    font-size: 25px;
+   margin-top: 15px;
+    font-family: font2;
+}
+.card2 span{
+    color:gold;
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: font1;
+}
+.card2 button{
+   margin-top: 5px;
+   padding: 7px;
+   border-radius: 50px;
+   font-family: font2;
+   background-color: black;
+   border-color: gold;
+}
+button h4{
+    color: white;
+    font-family: font1;
+}
+.card3{
+    height: 300px;
+    width: 250px;
+    border: 1px solid gold;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.card3 img{
+    object-fit: cover;
+    height: 55%;
+}
+.card3 h3{
+    color: white;
+    font-size: 25px;
+    margin-top: 15px;
+    font-family: font2;
+}
+.card3 span{
+    color:gold;
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: font1;
+}
+.card3 button{
+   margin-top: 5px;
+   padding: 7px;
+   border-radius: 50px;
+   font-family: font2;
+   background-color: black;
+   border-color: gold;
+}
+button h4{
+    color: white;
+    font-family: font1;
+}
+.middleimg{
+    min-height: 80vh;
+    width: 100vw;
+    display: flex;
+    align-items: center; /* or flex-start, flex-end */
+    justify-content: center;
+    background-image: url("./img2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.middlecontent{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.middlecontent h1{
+    color: white;
+   margin-left: 800px;
+   font-size: 40px;
+   font-family: font1;
+   line-height: 45px;
+}
+ .middlecontent button{
+    margin-left: 800px;
+    margin-top: 10px;
+   padding: 7px;
+   border-radius: 50px;
+   font-family: font2;
+   background-color: black;
+   border-color: gold;
+}
+button h4{
+    color: white;
+    font-family: font1;
+}
+.last{
+    height: 80vh;
+    width: 100vw;
+    background-color: black;
+    position: relative;
+}
+.lastpt h1{
+    color: white;
+    padding-top: 80px;
+    padding-left: 20px;
+    font-size: 70px;
+    font-family: font2;
+}
+.lastpt p{
+    color: white;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: font1;
+}
+.img1 img{
+    height: 250px;
+    position: absolute;
+    left: 47%;
+    border-radius:50px;
+    border: 2px solid gold;
+}
+.img2 img{
+    height: 250px;
+    position: absolute;
+    left: 70%;
+    bottom:45%;
+    border-radius:50px;
+    border: 2px solid gold;
 
+}
