@@ -42,11 +42,11 @@ main{
 // Mixin Concept with button and class
 
 @mixin button-style($bg-color){
-    padding: 20px 20px;
+    padding: 25px 20px;
     background-color:$bg-color;
     color: white;
     border: none;
-    border-radius: 8px;
+    border-radius: 7px;
     outline: none;
     cursor: pointer;
     font-size: 18px;
