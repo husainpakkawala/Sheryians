@@ -19,7 +19,7 @@ html,body{
 
 html{
     color: rgb(244, 244, 244);
-    
+    font-size: clamp(14px,1vw,18px);
 }
 
 body{
@@ -33,14 +33,20 @@ body{
 
 }
 
+
+section{        // 4K responsive
+    max-width: 2000px;
+}
+
 main{
     width: 100%;
     @include flex-column(0rem);
+    align-items: center;
 
 
     section{
         width: 100%;
-        @include flex-column(2rem);
+        @include flex-column(1rem);
         padding: 1rem;
        
 
@@ -51,16 +57,16 @@ main{
 
             img{
                 width: 100%;
-                border-radius: 10px;
+                border-radius: 0.7rem;
             }
         }
 
         .bottom{
-            @include flex-column(1.5rem);
+            @include flex-column(3rem);
             background-color: #292929;
-           
             padding: 1rem;
-            border-radius: 10px;
+            border-radius: 0.7rem;
+            font-size: 1rem;
             font-family: lig;
             
             
@@ -87,12 +93,49 @@ main{
                 button{
                     width: fit-content;
                     font-family: lig;
+                    font-size: 1rem;
+                    font-weight: 200;
+                    border: none;
+                    outline: none;
+                    padding: 0.7rem 1rem;
+                    border-radius: 0.5rem;
+                    
                 }
             }
         }
-            
+    }
+}
 
 
+@media (min-width:900px){
+    main{
+       
 
+        section{
+            flex-direction: row;
+            padding: 1rem 4rem;
+
+            .top , .bottom{
+                width: 50%;
+            }
+            .bottom{
+                justify-content: space-between;
+                padding: 3rem;
+
+                .text{
+
+                    gap: 1.5rem;
+                    h1{
+                        font-size: 3.5rem;
+                        line-height: 3.5rem;
+                    }
+                    p{
+                        width: 75%;
+                        font-size: 1.1rem;
+                        
+                    }
+                }
+            }
+        }
     }
 }
