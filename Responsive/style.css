@@ -1,0 +1,80 @@
+@font-face {
+  font-family: reg;
+  src: url(./63cffc0a3942456e003bc265_Chillax-Regular.woff);
+}
+@font-face {
+  font-family: lig;
+  src: url(./63cffc20aa8997095067596f_Satoshi-Light.woff);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  color: rgb(244, 244, 244);
+}
+
+body {
+  background-color: #1d1d1d;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+main section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem;
+}
+main section .top {
+  width: 100%;
+}
+main section .top img {
+  width: 100%;
+  border-radius: 10px;
+}
+main section .bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background-color: #292929;
+  padding: 1rem;
+  border-radius: 10px;
+  font-family: lig;
+}
+main section .bottom .text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+main section .bottom .text h1 {
+  font-weight: 300;
+  font-size: 2.6rem;
+  font-family: reg;
+  line-height: 3rem;
+  text-transform: uppercase;
+}
+main section .bottom .text p {
+  font-weight: 300;
+  font-family: lig;
+  font-size: 1.5rem;
+  opacity: 0.6;
+  line-height: 1.5;
+}
+main section .bottom .text button {
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: lig;
+}/*# sourceMappingURL=style.css.map */

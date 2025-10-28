@@ -1,0 +1,98 @@
+@font-face {
+    font-family:reg ;
+    src: url(./63cffc0a3942456e003bc265_Chillax-Regular.woff);
+}
+@font-face {
+    font-family: lig;
+    src: url(./63cffc20aa8997095067596f_Satoshi-Light.woff);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+html{
+    color: rgb(244, 244, 244);
+    
+}
+
+body{
+    background-color: #1d1d1d;
+}
+
+@mixin flex-column($gap:0rem){
+    display: flex;
+    flex-direction: column;
+    gap: $gap;
+
+}
+
+main{
+    width: 100%;
+    @include flex-column(0rem);
+
+
+    section{
+        width: 100%;
+        @include flex-column(2rem);
+        padding: 1rem;
+       
+
+
+        .top{
+            width: 100%;
+            
+
+            img{
+                width: 100%;
+                border-radius: 10px;
+            }
+        }
+
+        .bottom{
+            @include flex-column(1.5rem);
+            background-color: #292929;
+           
+            padding: 1rem;
+            border-radius: 10px;
+            font-family: lig;
+            
+            
+
+            
+
+            .text{
+                @include flex-column(0.7rem);
+
+                h1{
+                    font-weight: 300;
+                    font-size: 2.6rem;
+                    font-family: reg;
+                    line-height: 3rem;
+                    text-transform: uppercase;
+                }
+                p{
+                    font-weight: 300;
+                    font-family: lig;
+                    font-size: 1.5rem;
+                    opacity: 0.6;
+                    line-height: 1.5;
+                }
+                button{
+                    width: fit-content;
+                    font-family: lig;
+                }
+            }
+        }
+            
+
+
+
+    }
+}
