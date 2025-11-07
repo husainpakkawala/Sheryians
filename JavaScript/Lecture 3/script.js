@@ -68,3 +68,65 @@ typeof NaN //output number which is also wrong
 // (Very Imp)instanceof always work with reference value not primitive value
 
 [2,5]instanceof Array //output true
+
+
+//String Operator(Only one `+` is used for concatenation)
+
+let name = "Husain";
+let greet = "Hello" + "name";
+console.log(greet);  //output Hello Husain
+
+
+//Spread/Rest operators (Very important in modern JS)
+
+//spread
+let arr = [1,2,3];
+let copy = [...arr];
+console.log(copy); //output [1,2,3]
+
+//rest
+function sum(...numbers){
+    return numbers.reduce((a,b) => a + b);
+}
+console.log(sum(1,2,3)); //output 6
+
+
+//Nullish Coalescing operators(provides a fallback **only** for `null` or `undefined`)
+
+let username = null;
+let displayName = username ?? "Guest";
+console.log(displayName); //output Guest
+
+
+//Optional Chaining(Safely access nested properties without throwing an error)
+
+let user = {profile:{name:"Husain"}};
+console.log(user?.profile?.name); //Husain
+console.log(user?.address.city); //undefined (no error)
+
+
+//Hoisting in JavaScript(Hoisting is JavaScript behaviour of moving variable and function declarations to the top of their scope before code execution)
+
+//variable hoisting
+console.log(a); //undefined
+var a = 10;
+//the declaration `var a` is hoisted,but not  initialization
+
+//`let` and `const` are not hoisted the same way
+console.log(x); //ReferenceError 
+let x = 5;
+
+//function hoisting
+sayHello();//works
+function sayHello(){
+    console.log("Hello!");
+}
+//function declarations are fully hoisted,meaning you can call them before they are defined.
+
+
+//Temporal Dead Zone(TDZ)(The temporal dead zone is the period between the start of a scope and the actual declaration of a `let` or `const` variable)
+//Any attempt to access the variable before declaration result in a ReferenceError
+
+console.log(mess); //ReferenceError
+let mess = "Hello TDZ!";
+//the variables `message` is hoisted but remains uninitialized until `let` statement executes during this time,it exists in the TDZ.
